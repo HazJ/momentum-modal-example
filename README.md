@@ -19,5 +19,5 @@ Removing the AppLayout from the Create.vue in Users/ does fix the weird renderin
 2) Why does the installation guide say to add <Modal /> to the layout?
 2) How do I trigger the modal to close?
 
-- Closing the modal as it currently is does update the route.
-- Closing the modal and navigating to another page triggers the modal. e.g. Trigger the modal, and then click on the Dashboard link at the top.
+- Closing the modal as it currently is does not update the route.
+- Closing the modal and navigating to another page triggers the modal. This happens to any link.  e.g. Trigger the modal, and then click on the Dashboard link at the top.
